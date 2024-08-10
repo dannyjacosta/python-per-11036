@@ -1,11 +1,15 @@
-**Create an Environment**
+To create an **environment**
 ```python -m venv .venv```
 
-**Install Jupyter Notebooks**
+To install **Jupyter Notebooks**
 ```pip install jupyter```
 
-**Save package dependencies**
+To **save dependencies** to a text file
 ```pip freeze > packages.txt```
 
-**Start Jupyter Notebooks**
+To **Install dependencies** from a text file
+```pip install -r .\dependencies.txt```
+
+To start **Jupyter Notebooks**
 ```jupyter notebook```
+
