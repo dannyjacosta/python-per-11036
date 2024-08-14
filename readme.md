@@ -11,7 +11,8 @@ To **Install dependencies from a text file**
 `pip install -r .\dependencies.txt`
 
 **To start Jupyter Notebooks**
-`jupyter notebook`
+- `jupyter notebook`
+- `jupyter notebook --no-browser`
 
 **To enable code autocompletion in Jupyter Notebooks**
 Jupyter notebooks version 7 and higher doesn't require external extensions to enable code autocompletion.
